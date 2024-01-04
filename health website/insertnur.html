@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>
+
+insert new nurses
+</title>
+<link rel="stylesheet" type="text/css"
+href="style.css">
+<style>
+body{
+
+background-image:url("system2.jpg");
+	background-repeat: no-repeat;
+	background-size:1600px 750px;
+}
+</style>
+</head>
+
+<body>
+
+<center><h2 id= "top">
+Insert all information</h2>
+<br>
+<form action="insertNur.php" method="post">
+<table>
+	<tr><td>Name:</td><td><input type='text' title='Enter nurses name  ' name='nameNur' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Department:</td><td><input type='text' title='Enter nurses department  ' name='departNur' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Age:</td><td><input type='text' title='Enter nurses age  ' name='ageNur' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Salary:</td><td><input type='text' title='Enter nurses salary  ' name='salaryNur'id="text" required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Address:</td><td><input type='text' title='Enter nurses address  ' name='addressNur'id="text" required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Phone:</td><td><input type='text' title='Enter nurses phone  ' name='phoneNur'id="text" required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><br></td></tr>
+	
+	<tr><td><input type ='submit' value='insert' name='insert' id="but"></td> </tr>
+</table>
+</form>
+</center>
+			<form method="post" action="nur.php">
+		<input type="submit" value=" BACK HOME " name="back" id="back">
+	</form>
+
+</body>
+</html>

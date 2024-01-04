@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>
+
+insert new patient
+</title>
+<link rel="stylesheet" type="text/css"
+href="style.css">
+<style>
+body{
+
+background-image:url("system2.jpg");
+	background-repeat: no-repeat;
+	background-size:1600px 750px;
+}
+</style>
+</head>
+
+<body>
+
+<center><h2 id= "top">
+Insert all informayion</h2><br>
+
+<form action="insertpat.php" method="post">
+<table>
+	<tr><td>Name:</td><td><input type='text' title='Enter patient name  ' name='namepat' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Doctor's name:</td><td><input type='text' title='Enter Doctors name  ' name='nameDR'id="text" required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Age:</td><td><input type='text' title='Enter patient age  ' name='agepat' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Diseases:</td><td><input type='text' title='Enter patient Diseases  ' name='dis' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Address:</td><td><input type='text' title='Enter patient address  ' name='addresspat' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Phone:</td><td><input type='text' title='Enter patient phone  ' name='phonepat' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><input type ='submit' value='insert' name='insert' id="but"></td></tr>
+</table>
+</form>
+</center>
+
+			<form method="post" action="pat.php">
+		<input type="submit" value=" BACK HOME " name="back" id="back">
+	</form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>
+
+insert new manager
+</title>
+<link rel="stylesheet" type="text/css"
+href="style.css">
+<style>
+body{
+
+background-image:url("system2.jpg");
+	background-repeat: no-repeat;
+	background-size:1600px 750px;
+}
+</style>
+</head>
+
+<body>
+
+<center>
+
+<h2 id= "top">Insert all information</h2>
+<br>
+<form action="insertadmin.php" method="post">
+<table>
+	<tr><td>Name:</td><td><input type='text' title='Enter manager name  ' name='name'  id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Department:</td><td><input type='text' title='Enter manager department  ' name='depart' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Age:</td><td><input type='text' title='Enter manager age  ' name='age'id="text" required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Salary:</td><td><input type='text' title='Enter manager salary  ' name='salary'id="text" required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Address:</td><td><input type='text' title='Enter manager address  ' name='address' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Phone:</td><td><input type='text' title='Enter manager phone  ' name='phone' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td></td></tr>
+</table><input type ='submit' value='insert' name='insert' id="but">
+</form></center>
+			<form method="post" action="manag.php"id="left">
+		<input type="submit" value=" BACK HOME " name="back" id="back">
+	</form>
+
+
+</body>
+</html>

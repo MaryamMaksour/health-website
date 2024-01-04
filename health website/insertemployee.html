@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>
+
+insert new employee
+</title>
+<link rel="stylesheet" type="text/css"
+href="style.css">
+<style>
+body{
+
+background-image:url("system2.jpg");
+	background-repeat: no-repeat;
+	background-size:1600px 750px;
+}
+</style>
+</head>
+
+<body>
+
+<center><h2 id= "top">
+Insert all informayion</h2><br>
+<form action="insertEmp.php" method="post">
+<table>
+	<tr><td>Name:</td><td><input type='text' title='Enter employee name  ' name='nameEmp' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Department:</td><td><input type='text' title='Enter employee department  ' name='departEmp' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Age:</td><td><input type='text' title='Enter employee age  ' name='ageEmp' id="text" required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Salary:</td><td><input type='text' title='Enter employee salary  ' name='salaryEmp'id="text" required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Address:</td><td><input type='text' title='Enter employee address  ' name='addressEmp' id="text"required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td>Phone:</td><td><input type='text' title='Enter employee phone  ' name='phoneEmp'id="text" required></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td></td><td><input type ='submit' value='insert' name='insert' id="but"></td><td>	</tr>
+</table>
+</form>
+</center>
+			<form method="post" action="emp.php">
+		<input type="submit" value=" BACK HOME " name="back" id="back">
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>
+
+insert new doctor
+</title>
+<link rel="stylesheet" type="text/css"
+href="style.css">
+<style>
+body{
+
+background-image:url("system2.jpg");
+	background-repeat: no-repeat;
+	background-size:1600px 750px;
+}
+</style>
+</head>
+
+<body>
+
+<center>
+<h2 id= "top">
+Insert all informayion</h2><br>
+<form action="insertdrs.php" method="post">
+<table>
+	<tr><td><h3>Name:</td><td><input type='text' title='Enter doctor name  ' name='nameDr'id="text" required></h3></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><h3>Medical specialty:</td><td><input type='text' title='Enter doctor specialty  ' name='specialty' id="text"required></h3></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><h3>Age:</td><td><input type='text' title='Enter doctor age  ' name='ageDr' id="text"required></h3></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><h3>Salary:</td><td><input type='text' title='Enter doctor salary  ' name='salaryDr' id="text"required></h3></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><h3>Address:</td><td><input type='text' title='Enter doctor address  ' name='addressDr' id="text"required></h3></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><h3>Phone:</td><td><input type='text' title='Enter doctor phone  ' name='phoneDr' id="text" required></h3></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><br></td></tr>
+	<tr><td><input type ='submit' value='insert' name='insert' id="but"></td></tr>
+</table>
+</form>
+</center>
+
+			<form method="post" action="dr.php">
+		<input type="submit" value=" BACK HOME " name="back" id="back">
+	</form>
+
+</body>
+</html>

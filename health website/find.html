@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>
+find a doctor
+</title>
+<link rel="stylesheet" type="text/css"
+href="style.css">
+
+<style>
+body{
+background-color:#dbeaff;
+background-image:url("back.png");
+	background-repeat: no-repeat;
+	background-size:1500px 750px;
+}
+#but{
+color:black;}
+
+#but:active{
+  box-shadow: 0 5px #666;
+
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="navbar">
+<nav>
+<ul>
+<li><a href="find.html">FIND A DOCTOR</a></li>
+<li><a href="requst.html">REQUST AN APPOINTMENT</a></li>
+<li><a href="about.html">ABOUT US</a></li>
+</ul>
+</nav>
+
+
+<div class="system">
+<ul>
+<li><a href="ADMIN.html">SYSTEM</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<center>
+<h1>FIND A DOCTOR </h1>
+<br><br>
+<form method="post" action ="alldr.php">
+<input type="submit" value="   VIEW  ALL  DOCTORS   " name="view" id="but">
+</form>
+<br><br>
+<table>
+<tr>
+<td><br></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<form action="drbyname.php" method="post"> By Name <br> <input type="text" name="drname" title="enter name" id="text">&nbsp;&nbsp;
+<input type ="submit" value="   OK   " id="ok"></form>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td><br></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<form action="drbyservice.php" method="post" id="Serviceform">
+<label for="Serviceform">	By Service Offered:&nbsp;&nbsp;&nbsp;	</label>
+<select name="Service" id="Service" form="Serviceform">
+  <option value="neurology">Neurology</option>	
+  <option value="dentist">Dentist</option>
+  <option value="ENT">ENT</option>
+  <option value="psychologist">Psychologist</option>
+</select>
+</td><td><br></td>
+<td>
+<input type="submit" value="  OK  " name="ser" id="ok">
+</form>
+</td>
+</tr><tr>
+<td><br></td>
+</tr>
+<tr>
+<td></td>
+
+<td>
+<form action="drbylocation.php" method="post" id="locationform">
+<label for="location">By Location:&nbsp;&nbsp;&nbsp;</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select name="location" id="location" form="locationform">
+  <option value="damascus">Damascus</option>
+  <option value="hama">Hama</option>
+  <option value="homs">Homs</option>  
+  <option value="daraa">Daraa</option>
+
+</select>
+</td></td><td><br></td>
+<td>
+<input type="submit" value="  OK  " name="loc" id="ok"> </td>
+</tt>
+<tr>
+<td>	</td>
+</form>
+
+
+</td>
+</tr>
+</table>
+<br><br><br>
+<form method="post" action="visitor.html">
+<input type="submit" value="	BACK	" id="back">
+</form>
+<center>
+
+</body>
+</html>
